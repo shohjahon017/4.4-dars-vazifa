@@ -16,6 +16,22 @@
 // }
 // console.log(p);
 
+//3-masala
+// let num = 50;
+// let res = "";
+// let count = 0;
+// for (let i = 1; i <= num; i++) {
+//   if (num % i == 0) {
+//     count++;
+//   }
+// }
+// if (count > 2) {
+//   res = "murakkab son";
+// } else {
+//   res = "murakkab son emas";
+// }
+// console.log(count, res);
+
 //4-masala
 // let sum = 0;
 // for (let i = 1; i <= 20; i++) {
@@ -24,11 +40,14 @@
 // console.log(sum);
 
 //5-masala
-// for (let i = 0; i <= 5; i++) {
-//   let max;
-//   let min;
-//   let num = +prompt(`Sonni kiriting ${i + 1}`);
-
+// let num = +prompt("Sonni kiriting");
+// let max = num;
+// let min;
+// for (let i = 1; i <= 4; i++) {
+//   num = +prompt(`Sonni kiriting `);
+//   if (num > max) {
+//     max = num;
+//   }
 // }
 // console.log(max, min);
 
@@ -79,11 +98,11 @@
 // console.log(raqam);
 
 //14-masala
-let sum = 0;
-for (let i = 1; i <= 200; i++) {
-  sum += i;
-}
-console.log(sum);
+// let sum = 0;
+// for (let i = 1; i <= 200; i++) {
+//   sum += i;
+// }
+// console.log(sum);
 
 //Break/continue ga oid masalalar.
 //1-masala
